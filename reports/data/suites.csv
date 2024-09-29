@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Sep 30 05:32:39 CST 2024","Mon Sep 30 05:32:48 CST 2024","9660","Default Suite","MyUiTest","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","shopping","shopping",""
+"passed","Mon Sep 30 05:32:39 CST 2024","Mon Sep 30 05:32:48 CST 2024","9660","Default Suite","MyUiTest","com.xiaohe.testcase.bintegrationtest.AddToCartTest","com.xiaohe.testcase.bintegrationtest.AddToCartTest","shopping","shopping",""

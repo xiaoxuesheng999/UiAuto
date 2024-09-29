@@ -4,7 +4,7 @@
 18:57:57 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:1ac4950a35df4836b6e812d5e84c7677.jpg (408×204)
 18:59:26 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:f7d7264ae21142a6bc0afc4e1f0add35.jpg (408×204)
 19:03:34 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:7873b9ff81ea479daed100ca1feccfd6.jpg (408×204)
-19:03:35 method: com.xiaohe.testcase.unitest.LoginTest.mousemove(LoginTest.java:105) - [ INFO ] ----windowHandles:[2AF0A995E2050B39DA89D11FD3995BA1]
+19:03:35 method: com.xiaohe.testcase.aunittest.LoginTest.mousemove(LoginTest.java:105) - [ INFO ] ----windowHandles:[2AF0A995E2050B39DA89D11FD3995BA1]
 19:04:36 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:d94ec2afd63b414b99094e1c5820f462.jpg (408×204)
 19:07:39 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:61f8f5df8a634ee397f2f8d017e41023.jpg (408×204)
 19:07:40 method: com.xiaohe.util.KeyWord.KwSwitchToPage(KeyWord.java:50) - [ INFO ] ----当前网址标题:4a6523add52645598fcd73a9df2e3111.png (71×71)

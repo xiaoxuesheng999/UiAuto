@@ -3,15 +3,23 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="com.xiaohe.testcase.LoginTest">
+      <class name="com.xiaohe.testcase.integrationtest.AddToCartTest">
         <methods>
+          <include name="closeBrowser"/>
+          <include name="shopping"/>
+          <include name="initPage"/>
+        </methods>
+      </class> <!-- com.xiaohe.testcase.integrationtest.AddToCartTest -->
+      <class name="com.xiaohe.testcase.unitest.LoginTest">
+        <methods>
+          <include name="loginWithoutPassword"/>
           <include name="loginWithoutProtocol"/>
           <include name="initPage"/>
+          <include name="verifylogin"/>
           <include name="loginWithoutUsername"/>
-          <include name="loginWithoutPassword"/>
-          <include name="mousemove"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.xiaohe.testcase.LoginTest -->
+      </class> <!-- com.xiaohe.testcase.unitest.LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

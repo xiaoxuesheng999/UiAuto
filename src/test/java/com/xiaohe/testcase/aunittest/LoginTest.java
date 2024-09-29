@@ -1,4 +1,4 @@
-package com.xiaohe.testcase.unitest;
+package com.xiaohe.testcase.aunittest;
 import com.xiaohe.page.dangdangwang.LoginPage;
 import com.xiaohe.util.*;
 import io.qameta.allure.Epic;

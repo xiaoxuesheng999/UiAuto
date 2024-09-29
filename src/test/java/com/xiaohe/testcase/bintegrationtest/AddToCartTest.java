@@ -1,4 +1,4 @@
-package com.xiaohe.testcase.integrationtest;
+package com.xiaohe.testcase.bintegrationtest;
 
 import com.xiaohe.page.dangdangwang.*;
 import com.xiaohe.util.KeyWord;
@@ -64,7 +64,6 @@ public class AddToCartTest extends BasePage {
     @Story("清理数据,关闭浏览器")
     @AfterTest
     public static void closeBrowser()  {
-
         driver.quit();
     }
 }

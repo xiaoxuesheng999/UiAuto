@@ -1,6 +1,13 @@
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\entity\CookieFromJson.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\page\dangdangwang\BasePage.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\page\dangdangwang\HomePage.java
 D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\page\dangdangwang\LoginPage.java
-D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\testcase\LoginTest.java
-D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\util\BasePage.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\page\dangdangwang\MagicMemoryBookPage.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\page\dangdangwang\ShoppingCart.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\Temp.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\testcase\integrationtest\AddToCartTest.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\testcase\unitest\LoginTest.java
+D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\util\AllureConfig.java
 D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\util\ComparePicture.java
 D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\util\Driver.java
 D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\java\com\xiaohe\util\KeyWord.java
