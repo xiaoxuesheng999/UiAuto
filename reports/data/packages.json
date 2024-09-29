@@ -2,21 +2,107 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.xiaohe.testcase.integrationtest.AddToCartTest",
+    "name" : "com.xiaohe.testcase",
     "children" : [ {
-      "name" : "shopping",
-      "uid" : "1cb0360b3f866ab2",
-      "parentUid" : "da58f3e7c4a18a4e1a513960bfb5cd8b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1727649681250,
-        "stop" : 1727649689087,
-        "duration" : 7837
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "unittest.LoginTest",
+      "children" : [ {
+        "name" : "verifylogin",
+        "uid" : "c67d632f6af92e94",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1727650694336,
+          "stop" : 1727650694337,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithoutUsername",
+        "uid" : "69819bf6a8e23adf",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727650696943,
+          "stop" : 1727650697352,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithoutPassword",
+        "uid" : "fc23bd0e7415960c",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727650697357,
+          "stop" : 1727650697743,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithoutProtocol",
+        "uid" : "ecf0e505a0b07780",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727650697745,
+          "stop" : 1727650698181,
+          "duration" : 436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "slideDown",
+        "uid" : "c5c5a6a8d602627d",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727650698182,
+          "stop" : 1727650698398,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "slideUp",
+        "uid" : "248fb7f050ed58d8",
+        "parentUid" : "f80f968e2dd9835529c126bbc12c1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727650698399,
+          "stop" : 1727650698663,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "unittest.LoginTest"
+    }, {
+      "name" : "integrationtest.AddToCartTest",
+      "children" : [ {
+        "name" : "shopping",
+        "uid" : "400e4eff4eeb3011",
+        "parentUid" : "da58f3e7c4a18a4e1a513960bfb5cd8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1727650833253,
+          "stop" : 1727650841298,
+          "duration" : 8045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "integrationtest.AddToCartTest"
     } ],
-    "uid" : "com.xiaohe.testcase.integrationtest.AddToCartTest"
+    "uid" : "com.xiaohe.testcase"
   } ]
 }

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"p29638318\"]/div[2]/p/a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.25.0', revision: '8a8aea2337'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\何劲锋\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55309/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 13a9ead0b84cd32a23d17a7a97990501",
+      "children" : [ {
+        "name" : "shopping",
+        "uid" : "400e4eff4eeb3011",
+        "parentUid" : "c4659c77001ceb96a77b8d8ae10e51a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1727650833253,
+          "stop" : 1727650841298,
+          "duration" : 8045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4659c77001ceb96a77b8d8ae10e51a7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -41,10 +41,10 @@ public class AddToCartTest extends BasePage {
     @Story("搜索书品添加购物车")
     @Test(priority = 0)
     public static void shopping() throws FileNotFoundException, InterruptedException {
-        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("魔术记忆");
-        AllureConfig.allureConfig(driver,"搜索:魔法记忆书");
+        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("记忆");
+        AllureConfig.allureConfig(driver,"搜索:记忆书");
         KeyWord.elementWait(driver, HomePage.searchBtn).click();
-        AllureConfig.allureConfig(driver,"跳转至魔法记忆书列表");
+        AllureConfig.allureConfig(driver,"跳转至记忆书列表");
         KeyWord.KwJsScript(driver,"window.scrollTo(0,500)");
         AllureConfig.allureConfig(driver,"向下滑动500px");
         KeyWord.KwClick(driver,MagicMemoryBookPage.addToCartBtn);

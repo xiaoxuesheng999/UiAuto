@@ -11,6 +11,6 @@ public class MagicMemoryBookPage {
 //    public static String buyNum="//*[@id=\"buy-num\"]";
 //    public static String numAdd="//*[@id=\"num_add\"]";
 //    public static String numDel="//*[@id=\"num_del\"]";
-    public static String addToCartBtn="//*[@id=\"p29638318\"]/div[2]/p/a[1]";
+    public static String addToCartBtn="/html/body/div[3]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/div[2]/p/a[1]";
 
 }

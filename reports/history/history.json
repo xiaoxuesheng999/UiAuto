@@ -2,6 +2,26 @@
   "43bc92bc3da6803ac716d6dcf8f53674" : {
     "statistic" : {
       "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "400e4eff4eeb3011",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"p29638318\"]/div[2]/p/a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.25.0', revision: '8a8aea2337'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\何劲锋\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55309/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 13a9ead0b84cd32a23d17a7a97990501",
+      "time" : {
+        "start" : 1727650833253,
+        "stop" : 1727650841298,
+        "duration" : 8045
+      }
+    } ]
+  },
+  "f4dc5ac642fd5bc0afa08166ace1d688" : {
+    "statistic" : {
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
@@ -9,12 +29,107 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1cb0360b3f866ab2",
+      "uid" : "69819bf6a8e23adf",
       "status" : "passed",
       "time" : {
-        "start" : 1727649681250,
-        "stop" : 1727649689087,
-        "duration" : 7837
+        "start" : 1727650696943,
+        "stop" : 1727650697352,
+        "duration" : 409
+      }
+    } ]
+  },
+  "ea6883653112f9068b154438b29bc897" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "248fb7f050ed58d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727650698399,
+        "stop" : 1727650698663,
+        "duration" : 264
+      }
+    } ]
+  },
+  "672718b419a68043f3401cd003a46b37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc23bd0e7415960c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727650697357,
+        "stop" : 1727650697743,
+        "duration" : 386
+      }
+    } ]
+  },
+  "3e22cf5c16d02f4376e2aff6dc1b754a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecf0e505a0b07780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727650697745,
+        "stop" : 1727650698181,
+        "duration" : 436
+      }
+    } ]
+  },
+  "90feb7fdabc1dfeb1052fa8de58abc4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c67d632f6af92e94",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1727650694336,
+        "stop" : 1727650694337,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d05455b4f7e9668d646cded709d6f1ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5c5a6a8d602627d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727650698182,
+        "stop" : 1727650698398,
+        "duration" : 216
       }
     } ]
   }

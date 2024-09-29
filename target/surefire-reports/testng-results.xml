@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-29T22:44:35Z" name="Surefire suite" finished-at="2024-09-29T22:44:44Z" duration-ms="8889">
+  <suite started-at="2024-09-29T22:56:28Z" name="Surefire suite" finished-at="2024-09-29T22:56:37Z" duration-ms="8982">
     <groups>
     </groups>
-    <test started-at="2024-09-29T22:44:35Z" name="Surefire test" finished-at="2024-09-29T22:44:44Z" duration-ms="8889">
+    <test started-at="2024-09-29T22:56:28Z" name="Surefire test" finished-at="2024-09-29T22:56:37Z" duration-ms="8982">
       <class name="com.xiaohe.testcase.integrationtest.AddToCartTest">
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:44:35Z" name="initPage" finished-at="2024-09-30T06:44:37Z" duration-ms="1927" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:56:28Z" name="initPage" finished-at="2024-09-30T06:56:30Z" duration-ms="2003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="shopping()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:44:37Z" name="shopping" finished-at="2024-09-30T06:44:43Z" duration-ms="6557" status="PASS">
+        <test-method signature="shopping()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:56:30Z" name="shopping" finished-at="2024-09-30T06:56:37Z" duration-ms="6588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopping -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:44:43Z" name="closeBrowser" finished-at="2024-09-30T06:44:44Z" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.xiaohe.testcase.integrationtest.AddToCartTest@4c60d6e9]" started-at="2024-09-30T06:56:37Z" name="closeBrowser" finished-at="2024-09-30T06:56:37Z" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
