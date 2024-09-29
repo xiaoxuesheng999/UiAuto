@@ -6,33 +6,16 @@
     "children" : [ {
       "name" : "购物车添加商品",
       "children" : [ {
-        "name" : "清理数据,关闭浏览器",
-        "children" : [ {
-          "name" : "closeBrowser",
-          "uid" : "e688193e87823edf",
-          "parentUid" : "d01afac9c9eabfa11496f70435f1a724",
-          "status" : "broken",
-          "time" : {
-            "start" : 1727641541794,
-            "stop" : 1727641541795,
-            "duration" : 1
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "d01afac9c9eabfa11496f70435f1a724"
-      }, {
         "name" : "搜索书品添加购物车",
         "children" : [ {
           "name" : "shopping",
-          "uid" : "f50032480ed39291",
+          "uid" : "335ff141b0205f93",
           "parentUid" : "669e438d49e6dbf6c3b118ce457cde06",
           "status" : "passed",
           "time" : {
-            "start" : 1727641772539,
-            "stop" : 1727641790852,
-            "duration" : 18313
+            "start" : 1727645559100,
+            "stop" : 1727645568760,
+            "duration" : 9660
           },
           "flaky" : false,
           "newFailed" : false,

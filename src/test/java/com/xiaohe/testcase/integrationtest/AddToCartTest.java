@@ -40,7 +40,7 @@ public class AddToCartTest extends BasePage {
     }
     @Story("搜索书品添加购物车")
     @Test(priority = 0)
-    public static void shopping() throws FileNotFoundException {
+    public static void shopping() throws FileNotFoundException, InterruptedException {
         KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("魔术记忆");
         AllureConfig.allureConfig(driver,"搜索:魔法记忆书");
         KeyWord.elementWait(driver, HomePage.searchBtn).click();
@@ -54,15 +54,17 @@ public class AddToCartTest extends BasePage {
             }
         }
         AllureConfig.allureConfig(driver,"跳转购物车");
-    }
-    @Story("清理数据,关闭浏览器")
-    @AfterTest
-    public static void closeBrowser() throws FileNotFoundException, InterruptedException {
         KeyWord.KwClick(driver, ShoppingCart.deletetag);
         AllureConfig.allureConfig(driver,"删除购买书籍");
         KeyWord.KwClick(driver,ShoppingCart.deleteConfirmSure);
-        AllureConfig.allureConfig(driver,"清理数据");
         Thread.sleep(3000);
+        AllureConfig.allureConfig(driver,"清理数据");
+
+    }
+    @Story("清理数据,关闭浏览器")
+    @AfterTest
+    public static void closeBrowser()  {
+
         driver.quit();
     }
 }

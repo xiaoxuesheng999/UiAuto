@@ -1,21 +1,11 @@
 [ {
-  "uid" : "f50032480ed39291",
+  "uid" : "335ff141b0205f93",
   "name" : "shopping",
   "time" : {
-    "start" : 1727641772539,
-    "stop" : 1727641790852,
-    "duration" : 18313
+    "start" : 1727645559100,
+    "stop" : 1727645568760,
+    "duration" : 9660
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e688193e87823edf",
-  "name" : "closeBrowser",
-  "time" : {
-    "start" : 1727641541794,
-    "stop" : 1727641541795,
-    "duration" : 1
-  },
-  "status" : "broken",
   "severity" : "normal"
 } ]

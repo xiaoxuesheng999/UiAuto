@@ -4,99 +4,22 @@
   "children" : [ {
     "name" : "xiaohe0128",
     "children" : [ {
-      "name" : "51684@xiaohe0128.main(1)",
+      "name" : "44832@xiaohe0128.main(1)",
       "children" : [ {
         "name" : "shopping",
-        "uid" : "60eba7d5efe926e3",
-        "parentUid" : "de5a437d0381fa377edd007ccab9ec3b",
+        "uid" : "335ff141b0205f93",
+        "parentUid" : "0e1ccaab1f11a0758aa0351b1e32e5b2",
         "status" : "passed",
         "time" : {
-          "start" : 1727641432212,
-          "stop" : 1727641435330,
-          "duration" : 3118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "closeBrowser",
-        "uid" : "6a0b95f8dcbf89e0",
-        "parentUid" : "de5a437d0381fa377edd007ccab9ec3b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1727641440548,
-          "stop" : 1727641440548,
-          "duration" : 0
+          "start" : 1727645559100,
+          "stop" : 1727645568760,
+          "duration" : 9660
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "de5a437d0381fa377edd007ccab9ec3b"
-    }, {
-      "name" : "50660@xiaohe0128.main(1)",
-      "children" : [ {
-        "name" : "shopping",
-        "uid" : "6d0320521a322120",
-        "parentUid" : "5822e2c08a6b3ee306700ca33fe3f787",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727641534320,
-          "stop" : 1727641536568,
-          "duration" : 2248
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "closeBrowser",
-        "uid" : "e688193e87823edf",
-        "parentUid" : "5822e2c08a6b3ee306700ca33fe3f787",
-        "status" : "broken",
-        "time" : {
-          "start" : 1727641541794,
-          "stop" : 1727641541795,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5822e2c08a6b3ee306700ca33fe3f787"
-    }, {
-      "name" : "26116@xiaohe0128.main(1)",
-      "children" : [ {
-        "name" : "shopping",
-        "uid" : "de31dec211083974",
-        "parentUid" : "5816453303349f2007d28be2db142aa2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1727641614921,
-          "stop" : 1727641622895,
-          "duration" : 7974
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5816453303349f2007d28be2db142aa2"
-    }, {
-      "name" : "34064@xiaohe0128.main(1)",
-      "children" : [ {
-        "name" : "shopping",
-        "uid" : "f50032480ed39291",
-        "parentUid" : "64cee4a37361592d9e048648446d0e6a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727641772539,
-          "stop" : 1727641790852,
-          "duration" : 18313
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "64cee4a37361592d9e048648446d0e6a"
+      "uid" : "0e1ccaab1f11a0758aa0351b1e32e5b2"
     } ],
     "uid" : "e96a67e49d44d0dbf51f5ea7df6303fe"
   } ]

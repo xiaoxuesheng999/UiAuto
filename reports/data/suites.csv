@@ -1,3 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Sep 30 04:29:32 CST 2024","Mon Sep 30 04:29:50 CST 2024","18313","Default Suite","MyUiTest","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","shopping","shopping",""
-"broken","Mon Sep 30 04:25:41 CST 2024","Mon Sep 30 04:25:41 CST 2024","1","Default Suite","MyUiTest","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","closeBrowser","closeBrowser",""
+"passed","Mon Sep 30 05:32:39 CST 2024","Mon Sep 30 05:32:48 CST 2024","9660","Default Suite","MyUiTest","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","shopping","shopping",""
