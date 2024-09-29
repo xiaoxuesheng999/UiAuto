@@ -1,4 +1,4 @@
-package com.xiaohe.testcase.bintegrationtest;
+package com.xiaohe.testcase.integrationtest;
 
 import com.xiaohe.page.dangdangwang.*;
 import com.xiaohe.util.KeyWord;

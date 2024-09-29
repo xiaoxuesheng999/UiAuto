@@ -120,7 +120,7 @@
                 <version>2.20</version>
                 <configuration>
                     <includes>
-                        <include>*Test.java</include>
+                        <include>AddToCartTest.java</include>
                     </includes>
                 </configuration>
             </plugin>

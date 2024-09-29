@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.833" tests="7" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="maven.conf" value="D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\何劲锋"/>
+    <property name="user.language" value="zh"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="何劲锋"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\何劲锋\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\workspace\Idea-workspace\xiaohe\MyUiTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\Idea-workspace\xiaohe\MyUiTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\何劲锋\.cache\selenium\chromedriver\win64\118.0.5993.70;.;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\jre\bin;%PYTHON_HOME%;%PYTHON_HOME%\Scripts;D:\Jmeter\apache-jmeter-5.5\apache-jmeter-5.5\bin;D:\ant\apache-ant-1.10.12-bin\apache-ant-1.10.12\bin;D:\allure-commandline-2.13.7\allure-2.13.7\bin;D:\XShell\;D:\XShell\xshell\;D:\Git\Git\cmd;D:\developer\developer_tools\nodejs\node.exe;D:\WeiXinDeveloperTool\微信web开发者工具\dll;D:\App_tools\AppTools\platform-tools;D:\MySQL\mysql-8.2.0-winx64\bin;D:\developer\developer_tools\nodejs\;D:\VSCode\Study\Vue\day03\practice-a\node_modules\yarn\bin;D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;D:\VMware\bin\;D:\Chrome\chromedriver-win64;D:\developer\developer_tools\Python310\Scripts;D:\developer\developer_tools\Python310;D:\developer\developer_tools\Python\python-3.9.6-amd64\Scripts\;D:\developer\developer_tools\Python\python-3.9.6-amd64\;C:\Users\何劲锋\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Android\Android Studio\jbr\bin;D:\developer\developer_tools\Python\pycharm-professional-2022.2.3\PyCharm 2022.2.3\bin;D:\allure-commandline-2.13.7\allure-2.13.7\bin;C:\Users\何劲锋\AppData\Local\Programs\Fiddler;D:\VSCode\Microsoft VS Code\bin;C:\Users\何劲锋\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="classworlds.conf" value="D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="D:\developer\developer_tools\apache-maven-3.9.9-bin\apache-maven-3.9.9\lib\jansi-native"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shopping" classname="com.xiaohe.testcase.integrationtest.AddToCartTest" time="5.216">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;key_S&quot;] (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="key_S"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d
+	at com.xiaohe.testcase.integrationtest.AddToCartTest.shopping(AddToCartTest.java:44)
+</failure>
+  </testcase>
+  <testcase name="loginWithoutUsername" classname="com.xiaohe.testcase.unitest.LoginTest" time="0.144">
+    <failure message="expected [璇疯緭鍏ョ敤鎴峰悕鍜屽瘑鐮� ] but found [请输入用户名和密码 ]" type="java.lang.AssertionError">java.lang.AssertionError: expected [璇疯緭鍏ョ敤鎴峰悕鍜屽瘑鐮� ] but found [请输入用户名和密码 ]
+	at com.xiaohe.testcase.unitest.LoginTest.loginWithoutUsername(LoginTest.java:56)
+</failure>
+  </testcase>
+  <testcase name="loginWithoutPassword" classname="com.xiaohe.testcase.unitest.LoginTest" time="0.204">
+    <failure message="expected [璇疯緭鍏ョ敤鎴峰悕鍜屽瘑鐮� ] but found [ ]" type="java.lang.AssertionError">java.lang.AssertionError: expected [璇疯緭鍏ョ敤鎴峰悕鍜屽瘑鐮� ] but found [ ]
+	at com.xiaohe.testcase.unitest.LoginTest.loginWithoutPassword(LoginTest.java:71)
+</failure>
+  </testcase>
+  <testcase name="loginWithoutProtocol" classname="com.xiaohe.testcase.unitest.LoginTest" time="1.186">
+    <failure message="element click intercepted: Element &lt;a data-v-0841e785=&quot;&quot; href=&quot;#&quot; class=&quot;btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1235, 488). Other element would receive the click: &lt;div data-v-72dfa45e=&quot;&quot; data-v-0841e785=&quot;&quot; class=&quot;slideVerify&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=129.0.6668.71)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [65f410485d0b0707bf30c4a7ac3d0d9d, clickElement {id=f.8631957E2327A8FFA8C84ACA03002565.d.CF76EC87AAB419B27A992DDB0F4B8CA7.e.100}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (65f410485d0b0707bf30c4a7ac3d0d9d)] -&gt; xpath: /html/body/div/div[2]/div/div/div[1]/div/div/div[3]/div/a]&#10;Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a data-v-0841e785="" href="#" class="btn">...</a> is not clickable at point (1235, 488). Other element would receive the click: <div data-v-72dfa45e="" data-v-0841e785="" class="slideVerify">...</div>
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65f410485d0b0707bf30c4a7ac3d0d9d, clickElement {id=f.8631957E2327A8FFA8C84ACA03002565.d.CF76EC87AAB419B27A992DDB0F4B8CA7.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (65f410485d0b0707bf30c4a7ac3d0d9d)] -> xpath: /html/body/div/div[2]/div/div/div[1]/div/div/div[3]/div/a]
+Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d
+	at com.xiaohe.testcase.unitest.LoginTest.loginWithoutProtocol(LoginTest.java:85)
+]]></failure>
+  </testcase>
+  <testcase name="slideDown" classname="com.xiaohe.testcase.unitest.LoginTest" time="0.238"/>
+  <testcase name="slideUp" classname="com.xiaohe.testcase.unitest.LoginTest" time="0.265"/>
+  <testcase name="verifylogin" classname="com.xiaohe.testcase.unitest.LoginTest" time="1.063">
+    <failure message="element click intercepted: Element &lt;input data-v-551b3d6e=&quot;&quot; type=&quot;radio&quot; title=&quot;同意用户协议、隐私政策选择框&quot; class=&quot;iconfont radio checked&quot;&gt; is not clickable at point (1159, 437). Other element would receive the click: &lt;div data-v-72dfa45e=&quot;&quot; data-v-0841e785=&quot;&quot; class=&quot;slideVerify&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=129.0.6668.71)&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [65f410485d0b0707bf30c4a7ac3d0d9d, clickElement {id=f.8631957E2327A8FFA8C84ACA03002565.d.CF76EC87AAB419B27A992DDB0F4B8CA7.e.86}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (65f410485d0b0707bf30c4a7ac3d0d9d)] -&gt; xpath: /html/body/div/div[2]/div/div/div[1]/div/div/div[3]/div/div[4]/input]&#10;Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input data-v-551b3d6e="" type="radio" title="同意用户协议、隐私政策选择框" class="iconfont radio checked"> is not clickable at point (1159, 437). Other element would receive the click: <div data-v-72dfa45e="" data-v-0841e785="" class="slideVerify">...</div>
+  (Session info: chrome=129.0.6668.71)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65f410485d0b0707bf30c4a7ac3d0d9d, clickElement {id=f.8631957E2327A8FFA8C84ACA03002565.d.CF76EC87AAB419B27A992DDB0F4B8CA7.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\何劲锋\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (65f410485d0b0707bf30c4a7ac3d0d9d)] -> xpath: /html/body/div/div[2]/div/div/div[1]/div/div/div[3]/div/div[4]/input]
+Session ID: 65f410485d0b0707bf30c4a7ac3d0d9d
+	at com.xiaohe.testcase.unitest.LoginTest.verifylogin(LoginTest.java:108)
+]]></failure>
+  </testcase>
+</testsuite>
