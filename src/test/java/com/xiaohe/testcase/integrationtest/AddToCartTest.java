@@ -41,7 +41,7 @@ public class AddToCartTest extends BasePage {
     @Story("搜索书品添加购物车")
     @Test(priority = 0)
     public static void shopping() throws FileNotFoundException, InterruptedException {
-        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("记忆");
+        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("记忆术");
         AllureConfig.allureConfig(driver,"搜索:记忆书");
         KeyWord.elementWait(driver, HomePage.searchBtn).click();
         AllureConfig.allureConfig(driver,"跳转至记忆书列表");

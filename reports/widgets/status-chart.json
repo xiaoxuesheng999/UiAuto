@@ -1,70 +1,10 @@
 [ {
-  "uid" : "ecf0e505a0b07780",
-  "name" : "loginWithoutProtocol",
-  "time" : {
-    "start" : 1727650697745,
-    "stop" : 1727650698181,
-    "duration" : 436
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "400e4eff4eeb3011",
+  "uid" : "6ba8215ca359aa72",
   "name" : "shopping",
   "time" : {
-    "start" : 1727650833253,
-    "stop" : 1727650841298,
-    "duration" : 8045
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c5c5a6a8d602627d",
-  "name" : "slideDown",
-  "time" : {
-    "start" : 1727650698182,
-    "stop" : 1727650698398,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c67d632f6af92e94",
-  "name" : "verifylogin",
-  "time" : {
-    "start" : 1727650694336,
-    "stop" : 1727650694337,
-    "duration" : 1
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "69819bf6a8e23adf",
-  "name" : "loginWithoutUsername",
-  "time" : {
-    "start" : 1727650696943,
-    "stop" : 1727650697352,
-    "duration" : 409
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc23bd0e7415960c",
-  "name" : "loginWithoutPassword",
-  "time" : {
-    "start" : 1727650697357,
-    "stop" : 1727650697743,
-    "duration" : 386
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "248fb7f050ed58d8",
-  "name" : "slideUp",
-  "time" : {
-    "start" : 1727650698399,
-    "stop" : 1727650698663,
-    "duration" : 264
+    "start" : 1727651601408,
+    "stop" : 1727651608716,
+    "duration" : 7308
   },
   "status" : "passed",
   "severity" : "normal"

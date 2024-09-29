@@ -2,111 +2,29 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Default Suite",
+    "name" : "Surefire suite",
     "children" : [ {
-      "name" : "MyUiTest",
+      "name" : "Surefire test",
       "children" : [ {
-        "name" : "com.xiaohe.testcase.unittest.LoginTest",
-        "children" : [ {
-          "name" : "verifylogin",
-          "uid" : "c67d632f6af92e94",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "unknown",
-          "time" : {
-            "start" : 1727650694336,
-            "stop" : 1727650694337,
-            "duration" : 1
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "loginWithoutUsername",
-          "uid" : "69819bf6a8e23adf",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "passed",
-          "time" : {
-            "start" : 1727650696943,
-            "stop" : 1727650697352,
-            "duration" : 409
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "loginWithoutPassword",
-          "uid" : "fc23bd0e7415960c",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "passed",
-          "time" : {
-            "start" : 1727650697357,
-            "stop" : 1727650697743,
-            "duration" : 386
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "loginWithoutProtocol",
-          "uid" : "ecf0e505a0b07780",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "passed",
-          "time" : {
-            "start" : 1727650697745,
-            "stop" : 1727650698181,
-            "duration" : 436
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "slideDown",
-          "uid" : "c5c5a6a8d602627d",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "passed",
-          "time" : {
-            "start" : 1727650698182,
-            "stop" : 1727650698398,
-            "duration" : 216
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "slideUp",
-          "uid" : "248fb7f050ed58d8",
-          "parentUid" : "7ff3ab50a52d64b220e4694a2c423efd",
-          "status" : "passed",
-          "time" : {
-            "start" : 1727650698399,
-            "stop" : 1727650698663,
-            "duration" : 264
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "7ff3ab50a52d64b220e4694a2c423efd"
-      }, {
         "name" : "com.xiaohe.testcase.integrationtest.AddToCartTest",
         "children" : [ {
           "name" : "shopping",
-          "uid" : "400e4eff4eeb3011",
-          "parentUid" : "152795ef6d3996f9132705278a5718b3",
-          "status" : "broken",
+          "uid" : "6ba8215ca359aa72",
+          "parentUid" : "db3d3af3ee4611f477e7e9945b8790ae",
+          "status" : "passed",
           "time" : {
-            "start" : 1727650833253,
-            "stop" : 1727650841298,
-            "duration" : 8045
+            "start" : 1727651601408,
+            "stop" : 1727651608716,
+            "duration" : 7308
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "152795ef6d3996f9132705278a5718b3"
+        "uid" : "db3d3af3ee4611f477e7e9945b8790ae"
       } ],
-      "uid" : "70fef16e1f67b3800efd32df411fd55c"
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
     } ],
-    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+    "uid" : "940a09faf31371a51747026c9d178f0a"
   } ]
 }

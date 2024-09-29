@@ -1,19 +1,8 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "29839457e627a98f7a4da9b7480cb667",
-    "name" : "集成测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "80b9201cfd484bf8148176d19228e581",
-    "name" : "单元测试",
+    "uid" : "36789b85668eeedbc4eca38304598b5d",
+    "name" : "闆嗘垚娴嬭瘯",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

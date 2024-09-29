@@ -4,104 +4,22 @@
   "children" : [ {
     "name" : "xiaohe0128",
     "children" : [ {
-      "name" : "44236@xiaohe0128.main(1)",
-      "children" : [ {
-        "name" : "verifylogin",
-        "uid" : "c67d632f6af92e94",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "unknown",
-        "time" : {
-          "start" : 1727650694336,
-          "stop" : 1727650694337,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginWithoutPassword",
-        "uid" : "fc23bd0e7415960c",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727650697357,
-          "stop" : 1727650697743,
-          "duration" : 386
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "slideDown",
-        "uid" : "c5c5a6a8d602627d",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727650698182,
-          "stop" : 1727650698398,
-          "duration" : 216
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "slideUp",
-        "uid" : "248fb7f050ed58d8",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727650698399,
-          "stop" : 1727650698663,
-          "duration" : 264
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginWithoutProtocol",
-        "uid" : "ecf0e505a0b07780",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727650697745,
-          "stop" : 1727650698181,
-          "duration" : 436
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginWithoutUsername",
-        "uid" : "69819bf6a8e23adf",
-        "parentUid" : "366c9f43fa681cad51b1d0abb18dab1c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1727650696943,
-          "stop" : 1727650697352,
-          "duration" : 409
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "366c9f43fa681cad51b1d0abb18dab1c"
-    }, {
-      "name" : "52332@xiaohe0128.main(1)",
+      "name" : "26348@xiaohe0128.main(1)",
       "children" : [ {
         "name" : "shopping",
-        "uid" : "400e4eff4eeb3011",
-        "parentUid" : "de4898344aa909bd224f08fc8c517595",
-        "status" : "broken",
+        "uid" : "6ba8215ca359aa72",
+        "parentUid" : "93054db2434d9bce39cccfb124d4c8d8",
+        "status" : "passed",
         "time" : {
-          "start" : 1727650833253,
-          "stop" : 1727650841298,
-          "duration" : 8045
+          "start" : 1727651601408,
+          "stop" : 1727651608716,
+          "duration" : 7308
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "de4898344aa909bd224f08fc8c517595"
+      "uid" : "93054db2434d9bce39cccfb124d4c8d8"
     } ],
     "uid" : "e96a67e49d44d0dbf51f5ea7df6303fe"
   } ]
