@@ -2,29 +2,29 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "集成测试",
+    "name" : "闆嗘垚娴嬭瘯",
     "children" : [ {
-      "name" : "购物车添加商品",
+      "name" : "璐墿杞︽坊鍔犲晢鍝�",
       "children" : [ {
-        "name" : "搜索书品添加购物车",
+        "name" : "鎼滅储涔﹀搧娣诲姞璐墿杞�",
         "children" : [ {
           "name" : "shopping",
-          "uid" : "335ff141b0205f93",
-          "parentUid" : "669e438d49e6dbf6c3b118ce457cde06",
+          "uid" : "1cb0360b3f866ab2",
+          "parentUid" : "f74ac101e85d58695bf7e203cf25e4cd",
           "status" : "passed",
           "time" : {
-            "start" : 1727645559100,
-            "stop" : 1727645568760,
-            "duration" : 9660
+            "start" : 1727649681250,
+            "stop" : 1727649689087,
+            "duration" : 7837
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "669e438d49e6dbf6c3b118ce457cde06"
+        "uid" : "f74ac101e85d58695bf7e203cf25e4cd"
       } ],
-      "uid" : "e167b41d1b653909fa110033e7f992d7"
+      "uid" : "8dd062d782fec9090d71de6760dc78a5"
     } ],
-    "uid" : "29839457e627a98f7a4da9b7480cb667"
+    "uid" : "36789b85668eeedbc4eca38304598b5d"
   } ]
 }

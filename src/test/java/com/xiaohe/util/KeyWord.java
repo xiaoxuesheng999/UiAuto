@@ -44,7 +44,7 @@ public class KeyWord {
         String mainWindowHandle = driver.getWindowHandle();
         for (String handle : driver.getWindowHandles()) {
             if (!handle.equals(mainWindowHandle)) {
-                // 切换到新标签页
+                /* 切换到新标签页*/
                 driver.switchTo().window(handle);
                 logger.info("当前网址标题:"+driver.getTitle());
             }

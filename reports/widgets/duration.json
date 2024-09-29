@@ -1,10 +1,10 @@
 [ {
-  "uid" : "335ff141b0205f93",
+  "uid" : "1cb0360b3f866ab2",
   "name" : "shopping",
   "time" : {
-    "start" : 1727645559100,
-    "stop" : 1727645568760,
-    "duration" : 9660
+    "start" : 1727649681250,
+    "stop" : 1727649689087,
+    "duration" : 7837
   },
   "status" : "passed",
   "severity" : "normal"

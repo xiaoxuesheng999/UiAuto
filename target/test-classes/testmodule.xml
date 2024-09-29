@@ -1,8 +1,8 @@
 <suite name="UiAutoTest" verbose="1">
     <test name="test" enabled="true">  <!--test必须有name属性-->
         <classes>
-            <class name="com.xiaohe.testcase.aunittest.LoginTest"/>
-            <class name="com.xiaohe.testcase.bintegrationtest.AddToCartTest"></class>
+            <class name="com.xiaohe.testcase.unittest.LoginTest"/>
+            <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>
         </classes>
     </test>
 </suite>

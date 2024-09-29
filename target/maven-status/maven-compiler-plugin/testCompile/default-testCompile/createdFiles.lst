@@ -1,4 +1,3 @@
-com\xiaohe\testcase\unitest\LoginTest.class
 com\xiaohe\util\ComparePicture.class
 com\xiaohe\Temp.class
 com\xiaohe\page\dangdangwang\BasePage$2.class
@@ -13,4 +12,5 @@ com\xiaohe\page\dangdangwang\BasePage.class
 com\xiaohe\page\dangdangwang\MagicMemoryBookPage.class
 com\xiaohe\testcase\integrationtest\AddToCartTest.class
 com\xiaohe\page\dangdangwang\LoginPage.class
+com\xiaohe\testcase\unittest\LoginTest.class
 com\xiaohe\util\AllureConfig.class

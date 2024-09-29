@@ -5,13 +5,13 @@
     "name" : "com.xiaohe.testcase.integrationtest.AddToCartTest",
     "children" : [ {
       "name" : "shopping",
-      "uid" : "335ff141b0205f93",
+      "uid" : "1cb0360b3f866ab2",
       "parentUid" : "da58f3e7c4a18a4e1a513960bfb5cd8b",
       "status" : "passed",
       "time" : {
-        "start" : 1727645559100,
-        "stop" : 1727645568760,
-        "duration" : 9660
+        "start" : 1727649681250,
+        "stop" : 1727649689087,
+        "duration" : 7837
       },
       "flaky" : false,
       "newFailed" : false,

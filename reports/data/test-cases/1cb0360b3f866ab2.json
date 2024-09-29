@@ -1,12 +1,12 @@
 {
-  "uid" : "335ff141b0205f93",
+  "uid" : "1cb0360b3f866ab2",
   "name" : "shopping",
   "fullName" : "com.xiaohe.testcase.integrationtest.AddToCartTest.shopping",
   "historyId" : "43bc92bc3da6803ac716d6dcf8f53674",
   "time" : {
-    "start" : 1727645559100,
-    "stop" : 1727645568760,
-    "duration" : 9660
+    "start" : 1727649681250,
+    "stop" : 1727649689087,
+    "duration" : 7837
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,78 +14,78 @@
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1727645557059,
-      "stop" : 1727645559067,
-      "duration" : 2008
+      "start" : 1727649679278,
+      "stop" : 1727649681223,
+      "duration" : 1945
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f12b8b2aa8510ce9",
-      "name" : "魔法记忆书购买页面",
-      "source" : "f12b8b2aa8510ce9.png",
+      "uid" : "e288635d53cfb5f4",
+      "name" : "榄旀硶璁板繂涔﹁喘涔伴〉闈�",
+      "source" : "e288635d53cfb5f4.png",
       "type" : "image/png",
-      "size" : 455111
+      "size" : 856294
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ace3075b703a5858",
-      "name" : "搜索:魔法记忆书",
-      "source" : "ace3075b703a5858.png",
+      "uid" : "e0d80ab42e4ff967",
+      "name" : "鎼滅储:榄旀硶璁板繂涔�",
+      "source" : "e0d80ab42e4ff967.png",
       "type" : "image/png",
-      "size" : 1057198
+      "size" : 1115268
     }, {
-      "uid" : "2166f26d5281ac0d",
-      "name" : "跳转至魔法记忆书列表",
-      "source" : "2166f26d5281ac0d.png",
+      "uid" : "bfa94307d94ba177",
+      "name" : "璺宠浆鑷抽瓟娉曡蹇嗕功鍒楄〃",
+      "source" : "bfa94307d94ba177.png",
       "type" : "image/png",
-      "size" : 534793
+      "size" : 535130
     }, {
-      "uid" : "e8e955c5c5249490",
-      "name" : "向下滑动500px",
-      "source" : "e8e955c5c5249490.png",
+      "uid" : "d1e8c73c55caa90a",
+      "name" : "鍚戜笅婊戝姩500px",
+      "source" : "d1e8c73c55caa90a.png",
       "type" : "image/png",
       "size" : 666695
     }, {
-      "uid" : "e4da75a95c0be36c",
-      "name" : "跳转购物车",
-      "source" : "e4da75a95c0be36c.png",
+      "uid" : "bc9167b387c944c9",
+      "name" : "璺宠浆璐墿杞�",
+      "source" : "bc9167b387c944c9.png",
       "type" : "image/png",
       "size" : 96132
     }, {
-      "uid" : "a4b8536f68f555ed",
-      "name" : "删除购买书籍",
-      "source" : "a4b8536f68f555ed.png",
+      "uid" : "d8aea9aa1f0e1046",
+      "name" : "鍒犻櫎璐拱涔︾睄",
+      "source" : "d8aea9aa1f0e1046.png",
       "type" : "image/png",
-      "size" : 329219
+      "size" : 328090
     }, {
-      "uid" : "8461df51466dbc98",
-      "name" : "清理数据",
-      "source" : "8461df51466dbc98.png",
+      "uid" : "4d40ef2bfc915873",
+      "name" : "娓呯悊鏁版嵁",
+      "source" : "4d40ef2bfc915873.png",
       "type" : "image/png",
-      "size" : 326102
+      "size" : 535844
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 6,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
   },
   "afterStages" : [ {
     "name" : "closeBrowser",
     "time" : {
-      "start" : 1727645568813,
-      "stop" : 1727645569135,
-      "duration" : 322
+      "start" : 1727649689153,
+      "stop" : 1727649689518,
+      "duration" : 365
     },
     "description" : "",
     "status" : "passed",
@@ -94,8 +94,8 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -108,10 +108,10 @@
     "value" : "shopping"
   }, {
     "name" : "parentSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "suite",
-    "value" : "MyUiTest"
+    "value" : "Surefire test"
   }, {
     "name" : "subSuite",
     "value" : "com.xiaohe.testcase.integrationtest.AddToCartTest"
@@ -120,7 +120,7 @@
     "value" : "xiaohe0128"
   }, {
     "name" : "thread",
-    "value" : "44832@xiaohe0128.main(1)"
+    "value" : "23316@xiaohe0128.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -129,13 +129,13 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "搜索书品添加购物车"
+    "value" : "鎼滅储涔﹀搧娣诲姞璐墿杞�"
   }, {
     "name" : "epic",
-    "value" : "集成测试"
+    "value" : "闆嗘垚娴嬭瘯"
   }, {
     "name" : "feature",
-    "value" : "购物车添加商品"
+    "value" : "璐墿杞︽坊鍔犲晢鍝�"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -150,6 +150,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "335ff141b0205f93.json",
+  "source" : "1cb0360b3f866ab2.json",
   "parameterValues" : [ ]
 }

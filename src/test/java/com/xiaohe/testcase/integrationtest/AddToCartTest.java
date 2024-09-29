@@ -25,12 +25,12 @@ public class AddToCartTest extends BasePage {
     @Story("初始化")
     @BeforeTest
     public static void initPage() throws IOException, InterruptedException {
-        //读取配置初始化浏览器
+       /* 读取配置初始化浏览器*/
         init("chrome");
-        //浏览器驱动访问页面
+       /*浏览器驱动访问页面*/
         driver.get(LoginPage.url);
         driver.manage().window().maximize();
-        //判断项目是否存在cookies.json文件,有就直接套用登录，没有就重新登录写入cookies.json文件
+       /* 判断项目是否存在cookies.json文件,有就直接套用登录，没有就重新登录写入cookies.json文件*/
         if(Files.exists(Paths.get("D:\\workspace\\Idea-workspace\\xiaohe\\MyUiTest\\cookies.json"))){
             BasePage.readCookiesJson();
         }else{
