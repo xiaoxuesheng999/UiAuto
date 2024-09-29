@@ -1,0 +1,41 @@
+{
+  "43bc92bc3da6803ac716d6dcf8f53674" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f50032480ed39291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727641772539,
+        "stop" : 1727641790852,
+        "duration" : 18313
+      }
+    } ]
+  },
+  "9935dd5edd552beb2cb2995a086c6b3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e688193e87823edf",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"tr_1259351657\"]/td[7]/span[2]/a (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.25.0', revision: '8a8aea2337'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.71, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\何劲锋\\AppData\\Local\\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60377/devtoo..., se:cdpVersion: 129.0.6668.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d6832cd725fd172eee7245a5ff3da302",
+      "time" : {
+        "start" : 1727641541794,
+        "stop" : 1727641541795,
+        "duration" : 1
+      }
+    } ]
+  }
+}

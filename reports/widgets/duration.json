@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f50032480ed39291",
+  "name" : "shopping",
+  "time" : {
+    "start" : 1727641772539,
+    "stop" : 1727641790852,
+    "duration" : 18313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e688193e87823edf",
+  "name" : "closeBrowser",
+  "time" : {
+    "start" : 1727641541794,
+    "stop" : 1727641541795,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

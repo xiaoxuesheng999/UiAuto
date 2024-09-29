@@ -1,0 +1,7 @@
+com\xiaohe\util\ComparePicture.class
+com\xiaohe\page\dangdangwang\LoginPage.class
+com\xiaohe\util\ReadProperties.class
+com\xiaohe\util\KeyWord.class
+com\xiaohe\util\BasePage.class
+com\xiaohe\util\Driver.class
+com\xiaohe\testcase\LoginTest.class

@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MyUiTest",
+      "children" : [ {
+        "name" : "com.xiaohe.testcase.integrationtest.AddToCartTest",
+        "children" : [ {
+          "name" : "closeBrowser",
+          "uid" : "e688193e87823edf",
+          "parentUid" : "152795ef6d3996f9132705278a5718b3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1727641541794,
+            "stop" : 1727641541795,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shopping",
+          "uid" : "f50032480ed39291",
+          "parentUid" : "152795ef6d3996f9132705278a5718b3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727641772539,
+            "stop" : 1727641790852,
+            "duration" : 18313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "152795ef6d3996f9132705278a5718b3"
+      } ],
+      "uid" : "70fef16e1f67b3800efd32df411fd55c"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}
