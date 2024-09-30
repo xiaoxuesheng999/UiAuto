@@ -19,3 +19,5 @@ mvn test -Dtest=TestModule
 mvn clean test allure:report
 执行指定xml
 mvn clean test -D surefire.suiteXmlFiles=D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\resources\testmodule.xml
+------------------------------------------------------------------------------
+jenkins上的报告存放地址：C:\jenkins\workspace\JavaUiAuto\allure-results

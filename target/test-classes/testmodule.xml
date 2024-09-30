@@ -4,9 +4,9 @@
             <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>
         </classes>
     </test>
-    <test name="test1" enabled="true">  <!--test必须有name属性-->
-        <classes>
-            <class name="com.xiaohe.testcase.unittest.LoginTest"/>
-        </classes>
-    </test>
+<!--    <test name="test1" enabled="true">  &lt;!&ndash;test必须有name属性&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.xiaohe.testcase.unittest.LoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
