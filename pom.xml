@@ -118,12 +118,13 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20</version>
-                <configuration>
-                    <includes>
-                        <include>AddToCartTest.java</include>
+
+<!--                <configuration>-->
+<!--                    <includes>-->
 <!--                        <include>LoginTest.java</include>-->
-                    </includes>
-                </configuration>
+<!--                        <include>AddToCartTest.java</include>-->
+<!--                    </includes>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>

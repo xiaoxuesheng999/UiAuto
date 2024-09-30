@@ -15,53 +15,53 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-@Epic("é›†æˆæµ‹è¯•")
-@Feature("è´­ç‰©è½¦æ·»åŠ å•†å“")
+@Epic("¼¯³É²âÊÔ")
+@Feature("¹ºÎï³µÌí¼ÓÉÌÆ·")
 public class AddToCartTest extends BasePage {
     static Logger logger=Logger.getLogger(AddToCartTest.class);
     AddToCartTest(){
         super();
     }
-    @Story("åˆå§‹åŒ–")
+    @Story("³õÊ¼»¯")
     @BeforeTest
     public static void initPage() throws IOException, InterruptedException {
-       /* è¯»å–é…ç½®åˆå§‹åŒ–æµè§ˆå™¨*/
+
         init("chrome");
-       /*æµè§ˆå™¨é©±åŠ¨è®¿é—®é¡µé¢*/
+
         driver.get(LoginPage.url);
         driver.manage().window().maximize();
-       /* åˆ¤æ–­é¡¹ç›®æ˜¯å¦å­˜åœ¨cookies.jsonæ–‡ä»¶,æœ‰å°±ç›´æ¥å¥—ç”¨ç™»å½•ï¼Œæ²¡æœ‰å°±é‡æ–°ç™»å½•å†™å…¥cookies.jsonæ–‡ä»¶*/
+
         if(Files.exists(Paths.get("D:\\workspace\\Idea-workspace\\xiaohe\\MyUiTest\\cookies.json"))){
             BasePage.readCookiesJson();
         }else{
             BasePage.writeCookiesJson();
         }
-        AllureConfig.allureConfig(driver,"é­”æ³•è®°å¿†ä¹¦è´­ä¹°é¡µé¢");
+        AllureConfig.allureConfig(driver,"¼ÇÒäÊé¹ºÂòÒ³Ãæ");
     }
-    @Story("æœç´¢ä¹¦å“æ·»åŠ è´­ç‰©è½¦")
+    @Story("ËÑË÷ÊéÆ·Ìí¼Ó¹ºÎï³µ")
     @Test(priority = 0)
     public static void shopping() throws FileNotFoundException, InterruptedException {
-        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("English");
-        AllureConfig.allureConfig(driver,"æœç´¢:è®°å¿†ä¹¦");
+        KeyWord.elementWait(driver, HomePage.searchInputBox).sendKeys("¼ÇÒäÊõ");
+        AllureConfig.allureConfig(driver,"ËÑË÷:¼ÇÒäÊé");
         KeyWord.elementWait(driver, HomePage.searchBtn).click();
-        AllureConfig.allureConfig(driver,"è·³è½¬è‡³è®°å¿†ä¹¦åˆ—è¡¨");
+        AllureConfig.allureConfig(driver,"Ìø×ªÖÁ¼ÇÒäÊéÁĞ±í");
         KeyWord.KwJsScript(driver,"window.scrollTo(0,500)");
-        AllureConfig.allureConfig(driver,"å‘ä¸‹æ»‘åŠ¨500px");
+        AllureConfig.allureConfig(driver,"ÏòÏÂ»¬¶¯500px");
         KeyWord.KwClick(driver,MagicMemoryBookPage.addToCartBtn);
         for (String windowHandle : driver.getWindowHandles()) {
             if(!windowHandle.equals(driver.getWindowHandle())){
                 driver.switchTo().window(windowHandle);
             }
         }
-        AllureConfig.allureConfig(driver,"è·³è½¬è´­ç‰©è½¦");
+        AllureConfig.allureConfig(driver,"Ìø×ª¹ºÎï³µ");
         KeyWord.KwClick(driver, ShoppingCart.deletetag);
-        AllureConfig.allureConfig(driver,"åˆ é™¤è´­ä¹°ä¹¦ç±");
+        AllureConfig.allureConfig(driver,"É¾³ı¹ºÂòÊé¼®");
         KeyWord.KwClick(driver,ShoppingCart.deleteConfirmSure);
         Thread.sleep(3000);
-        AllureConfig.allureConfig(driver,"æ¸…ç†æ•°æ®");
+        AllureConfig.allureConfig(driver,"ÇåÀíÊı¾İ");
 
     }
-    @Story("æ¸…ç†æ•°æ®,å…³é—­æµè§ˆå™¨")
+    @Story("ÇåÀíÊı¾İ,¹Ø±Õä¯ÀÀÆ÷")
     @AfterTest
     public static void closeBrowser()  {
         driver.quit();

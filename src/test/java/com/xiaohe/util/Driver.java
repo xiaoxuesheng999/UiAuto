@@ -14,19 +14,19 @@ public class Driver {
     public Driver() {}
 
     public static void init(String drivername) throws IOException {
-        Properties properties = ReadProperties.getValue("globle.properties");
-        String webdriverName = properties.getProperty("webdriver.name");
-        String driverstr = properties.getProperty("driver");
-        switch (drivername.toUpperCase()){
-            case "CHROME":
-                driver=chromeDriver(webdriverName,driverstr);
-                break;
-            case "FIREFOX":
-                driver=firefoxDriver(webdriverName,driverstr);
-                break;
-            case "EDGE":
-                driver=edgeDriver(webdriverName,driverstr);
-                break;
+            Properties properties = ReadProperties.getValue("globle.properties");
+            String webdriverName = properties.getProperty("webdriver.name");
+            String driverstr = properties.getProperty("driver");
+            switch (drivername.toUpperCase()) {
+                case "CHROME":
+                    driver = chromeDriver(webdriverName, driverstr);
+                    break;
+                case "FIREFOX":
+                    driver = firefoxDriver(webdriverName, driverstr);
+                    break;
+                case "EDGE":
+                    driver = edgeDriver(webdriverName, driverstr);
+                    break;
         }
     }
     public static ChromeDriver chromeDriver(String drivername,String driverpath){

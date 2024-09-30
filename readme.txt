@@ -17,3 +17,5 @@ mvn clean test
 mvn test -Dtest=TestModule
 执行所有用例并输出allure报告
 mvn clean test allure:report
+执行指定xml
+mvn clean test -D surefire.suiteXmlFiles=D:\workspace\Idea-workspace\xiaohe\MyUiTest\src\test\resources\testmodule.xml

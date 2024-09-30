@@ -44,9 +44,9 @@ public class KeyWord {
         String mainWindowHandle = driver.getWindowHandle();
         for (String handle : driver.getWindowHandles()) {
             if (!handle.equals(mainWindowHandle)) {
-                /* åˆ‡æ¢åˆ°æ–°æ ‡ç­¾é¡µ*/
+
                 driver.switchTo().window(handle);
-                logger.info("å½“å‰ç½‘å€æ ‡é¢˜:"+driver.getTitle());
+                logger.info("µ±Ç°ÍøÖ·±êÌâ:"+driver.getTitle());
             }
         }
         return driver;

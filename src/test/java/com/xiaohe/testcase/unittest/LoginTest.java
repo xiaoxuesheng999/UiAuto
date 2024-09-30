@@ -16,8 +16,8 @@ import java.io.*;
 import org.apache.log4j.Logger;
 
 
-@Epic("å•å…ƒæµ‹è¯•")
-@Feature("ç™»å½•é¡µé¢")
+@Epic("µ¥Ôª²âÊÔ")
+@Feature("µÇÂ¼Ò³Ãæ")
 public class LoginTest extends Driver {
 
     static Logger logger=Logger.getLogger(LoginTest.class);
@@ -27,91 +27,91 @@ public class LoginTest extends Driver {
 
 
 
-    @Story("åˆå§‹åŒ–")
+    @Story("³õÊ¼»¯")
     @BeforeTest
     public static void initPage() throws IOException {
-      /*  è¯»å–é…ç½®åˆå§‹åŒ–æµè§ˆå™¨*/
+
         init("chrome");
-        /*æµè§ˆå™¨é©±åŠ¨è®¿é—®é¡µé¢*/
+
         driver.get(LoginPage.url);
         driver.manage().window().maximize();
-        /*ç­‰å¾…ç™»å½•å…ƒç´ å‡ºç°ç‚¹å‡»*/
+
         KeyWord.KwClick(driver,LoginPage.loginTagElement);
-        AllureConfig.allureConfig(driver,"åˆå§‹åŒ–ç™»å½•ç•Œé¢");
+        AllureConfig.allureConfig(driver,"³õÊ¼»¯µÇÂ¼½çÃæ");
     }
 
 
-    @Story("æ— å¯†ç ç™»å½•")
+    @Story("ÎŞÃÜÂëµÇÂ¼")
     @Test(priority=1)
     public static void loginWithoutUsername() throws IOException {
-        /*ç­‰å¾…è¾“å…¥æ¡†å…ƒç´ å‡ºç°è¾“å…¥*/
+
         KeyWord.KwSendKey(driver,LoginPage.userInputBoxElement,LoginPage.username);
-       /* å‹¾é€‰æ¡æ¬¾æ ‡ç­¾*/
+
         KeyWord.KwClick(driver,LoginPage.protocolElement);
-        /*ç‚¹å‡»ç™»å½•*/
+
         KeyWord.KwClick(driver,LoginPage.loginButtonElement);
         String js="return document.querySelector("+LoginPage.errorTagElement+").textContent";
         Object o = driver.executeScript(js);
-        /*æ–­è¨€æç¤ºè¯­*/
-        Assert.assertEquals(o.toString(),"è¯·è¾“å…¥ç”¨æˆ·åå’Œå¯†ç  ");
-        AllureConfig.allureConfig(driver,"æç¤º:è¯·è¾“å…¥ç”¨æˆ·åå’Œå¯†ç ");
-        /*æ¸…ç†è¾“å…¥æ¡†*/
+
+        Assert.assertEquals(o.toString(),"ÇëÊäÈëÓÃ»§ÃûºÍÃÜÂë ");
+        AllureConfig.allureConfig(driver,"ÌáÊ¾:ÇëÊäÈëÓÃ»§ÃûºÍÃÜÂë");
+
         KeyWord.KwClick(driver,LoginPage.userInputClearElement);
     }
-    @Story("æ— ç”¨æˆ·åç™»å½•")
+    @Story("ÎŞÓÃ»§ÃûµÇÂ¼")
     @Test(priority =2)
     public static void loginWithoutPassword() throws IOException {
-        /*ç­‰å¾…è¾“å…¥æ¡†å…ƒç´ å‡ºç°è¾“å…¥*/
+
         KeyWord.KwSendKey(driver,LoginPage.passInputBoxElement,LoginPage.password);
-        /*ç‚¹å‡»ç™»å½•*/
+
         KeyWord.KwClick(driver,LoginPage.loginButtonElement);
         String js="return document.querySelector("+LoginPage.errorTagElement+").textContent";
-       /*æ–­è¨€æç¤ºè¯­*/
+
         Object o = driver.executeScript(js);
-        Assert.assertEquals(o.toString(),"è¯·è¾“å…¥ç”¨æˆ·åå’Œå¯†ç  ");
-        AllureConfig.allureConfig(driver,"æç¤º:è¯·è¾“å…¥ç”¨æˆ·åå’Œå¯†ç ");
-     /*   æ¸…ç†è¾“å…¥æ¡†*/
+        Assert.assertEquals(o.toString(),"ÇëÊäÈëÓÃ»§ÃûºÍÃÜÂë ");
+        AllureConfig.allureConfig(driver,"ÌáÊ¾:ÇëÊäÈëÓÃ»§ÃûºÍÃÜÂë");
+
         KeyWord.KwClick(driver,LoginPage.passwordInputClearElement);
     }
-    @Story("æ— åè®®ç™»å½•")
+    @Story("ÎŞĞ­ÒéµÇÂ¼")
     @Test(priority = 3)
     public static void loginWithoutProtocol() throws IOException {
-        /*å–æ¶ˆå‹¾é€‰æ¡æ¬¾æ ‡ç­¾*/
+
         KeyWord.KwClick(driver,LoginPage.protocolElement);
-        /*ç­‰å¾…è¾“å…¥æ¡†å…ƒç´ å‡ºç°è¾“å…¥*/
+
         KeyWord.KwSendKey(driver,LoginPage.userInputBoxElement,LoginPage.username);
         KeyWord.KwSendKey(driver,LoginPage.passInputBoxElement,LoginPage.password);
-        /*ç‚¹å‡»ç™»å½•*/
+
         KeyWord.KwClick(driver,LoginPage.loginButtonElement);
         String js="return document.querySelector("+LoginPage.errorTagElement+").textContent";
         Object o = driver.executeScript(js);
-        AllureConfig.allureConfig(driver,"æç¤ºè¯·é˜…è¯»å¹¶åŒæ„åè®®");
-       /*æ–­è¨€*/
-        Assert.assertEquals(o.toString(),"è¯·é˜…è¯»å¹¶åŒæ„åè®® ");
+        AllureConfig.allureConfig(driver,"ÌáÊ¾ÇëÔÄ¶Á²¢Í¬ÒâĞ­Òé");
+
+        Assert.assertEquals(o.toString(),"ÇëÔÄ¶Á²¢Í¬ÒâĞ­Òé ");
     }
-    @Story("å‘ä¸‹æ»‘åŠ¨")
+    @Story("ÏòÏÂ»¬¶¯")
     @Test(priority = 4)
     public static void slideDown() throws FileNotFoundException {
        KeyWord.KwJsScript(driver,"window.scrollTo(0, document.body.scrollHeight)");
-        AllureConfig.allureConfig(driver,"æ‹–åŠ¨æ¡å‘ä¸‹æ»‘åŠ¨");
+        AllureConfig.allureConfig(driver,"ÍÏ¶¯ÌõÏòÏÂ»¬¶¯");
     }
-    @Story("å‘ä¸Šæ»‘åŠ¨")
+    @Story("ÏòÉÏ»¬¶¯")
     @Test(priority = 5)
     public static void slideUp() throws FileNotFoundException {
         KeyWord.KwJsScript(driver,"window.scrollTo( document.body.scrollHeight,0)");
-        AllureConfig.allureConfig(driver,"æ‹–åŠ¨æ¡å‘ä¸Šæ»‘åŠ¨");
+        AllureConfig.allureConfig(driver,"ÍÏ¶¯ÌõÏòÉÏ»¬¶¯");
     }
-    @Story("éªŒè¯ç™»å½•")
+    @Story("ÑéÖ¤µÇÂ¼")
     @Test(priority = 6)
     public static void verifylogin() throws IOException, InterruptedException {
-        /*å‹¾é€‰æ¡æ¬¾æ ‡ç­¾*/
+
         KeyWord.KwClick(driver,LoginPage.protocolElement);
-        /*ç‚¹å‡»ç™»å½•*/
+
         KeyWord.KwClick(driver,LoginPage.loginButtonElement);
         Thread.sleep(2000);
         boolean flag=true;
         while (flag) {
-           /* è·å–ä¸»å›¾*/
+
             Object picUrl = ((JavascriptExecutor) driver).executeScript("return document.querySelector(\"#bgImg\").src;");
             RemoteWebDriver newPageDriver = KeyWord.KwSwitchToPage(driver, picUrl.toString());
             KeyWord.KwScreenShot(newPageDriver, LoginPage.verifyPic, "1");
@@ -119,7 +119,7 @@ public class LoginTest extends Driver {
             for (String windowHandle : driver.getWindowHandles()) {
                 driver.switchTo().window(windowHandle);
             }
-            /*è·å–æ¨¡æ¿å›¾*/
+
             Object picUrl2 = ((JavascriptExecutor) driver).executeScript("return document.querySelector(\"#simg\").src;");
             RemoteWebDriver newPageDriver2 = KeyWord.KwSwitchToPage(driver, picUrl2.toString());
             KeyWord.KwScreenShot(newPageDriver2, LoginPage.verifyPic, "2");
@@ -127,11 +127,11 @@ public class LoginTest extends Driver {
             for (String windowHandle : driver.getWindowHandles()) {
                 driver.switchTo().window(windowHandle);
             }
-           /*å¯¹æ¯”å›¾ç‰‡ï¼Œè·å–å›¾ç‰‡åç§»åæ ‡*/
+
             String imagePath = "D:\\workspace\\Idea-workspace\\xiaohe\\MyUiTest\\captcha1.png";
             String imagePath2 = "D:\\workspace\\Idea-workspace\\xiaohe\\MyUiTest\\captcha2.png";
             double offset = ComparePicture.comparePicture(imagePath, imagePath2, 71);
-           /*æ¨¡æ‹Ÿé¼ æ ‡æ‹–åŠ¨*/
+
             Actions actions = new Actions(driver);
             actions.moveToElement(KeyWord.elementWait(driver, LoginPage.sliderBtn)).clickAndHold().moveByOffset(50, 0).perform();
             Thread.sleep(1000);
@@ -145,9 +145,9 @@ public class LoginTest extends Driver {
             }
         }
         Thread.sleep(2000);
-        AllureConfig.allureConfig(driver,"ç™»å½•æˆåŠŸ!");
+        AllureConfig.allureConfig(driver,"µÇÂ¼³É¹¦!");
     }
-    @Story("å…³é—­æµè§ˆå™¨")
+    @Story("¹Ø±Õä¯ÀÀÆ÷")
     @AfterTest
     public static void closeBrowser(){
         driver.quit();
