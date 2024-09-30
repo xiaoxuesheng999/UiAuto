@@ -1,57 +1,6 @@
 [ {
-  "buildOrder" : 7,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/7/allure",
-  "reportName" : "AllureReport",
   "data" : {
     "run" : 1,
     "retry" : 0
-  }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/6/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 1
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/5/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 3
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/4/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 3
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/3/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 3
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/2/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 3
-  }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "http://localhost:8080/job/JavaUiAuto/1/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 8,
-    "retry" : 3
   }
 } ]

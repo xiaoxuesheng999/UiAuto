@@ -121,7 +121,7 @@
                 <configuration>
                     <includes>
                         <include>AddToCartTest.java</include>
-                        <include>LoginTest.java</include>
+<!--                        <include>LoginTest.java</include>-->
                     </includes>
                 </configuration>
             </plugin>

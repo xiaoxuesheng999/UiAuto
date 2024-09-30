@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "xiaohe0128",
     "children" : [ {
-      "name" : "26348@xiaohe0128.main(1)",
+      "name" : "10168@xiaohe0128.main(1)",
       "children" : [ {
         "name" : "shopping",
-        "uid" : "6ba8215ca359aa72",
-        "parentUid" : "93054db2434d9bce39cccfb124d4c8d8",
+        "uid" : "6a01838676e94be",
+        "parentUid" : "64a6db327fd12387d51bac0d3230a097",
         "status" : "passed",
         "time" : {
-          "start" : 1727651601408,
-          "stop" : 1727651608716,
-          "duration" : 7308
+          "start" : 1727653524711,
+          "stop" : 1727653531488,
+          "duration" : 6777
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "93054db2434d9bce39cccfb124d4c8d8"
+      "uid" : "64a6db327fd12387d51bac0d3230a097"
     } ],
     "uid" : "e96a67e49d44d0dbf51f5ea7df6303fe"
   } ]

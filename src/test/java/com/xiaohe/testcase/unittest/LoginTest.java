@@ -42,7 +42,7 @@ public class LoginTest extends Driver {
 
 
     @Story("无密码登录")
-    @Test(priority = 0)
+    @Test(priority=1)
     public static void loginWithoutUsername() throws IOException {
         /*等待输入框元素出现输入*/
         KeyWord.KwSendKey(driver,LoginPage.userInputBoxElement,LoginPage.username);
@@ -59,7 +59,7 @@ public class LoginTest extends Driver {
         KeyWord.KwClick(driver,LoginPage.userInputClearElement);
     }
     @Story("无用户名登录")
-    @Test(priority = 1)
+    @Test(priority =2)
     public static void loginWithoutPassword() throws IOException {
         /*等待输入框元素出现输入*/
         KeyWord.KwSendKey(driver,LoginPage.passInputBoxElement,LoginPage.password);
@@ -74,7 +74,7 @@ public class LoginTest extends Driver {
         KeyWord.KwClick(driver,LoginPage.passwordInputClearElement);
     }
     @Story("无协议登录")
-    @Test(priority = 2)
+    @Test(priority = 3)
     public static void loginWithoutProtocol() throws IOException {
         /*取消勾选条款标签*/
         KeyWord.KwClick(driver,LoginPage.protocolElement);
@@ -90,19 +90,19 @@ public class LoginTest extends Driver {
         Assert.assertEquals(o.toString(),"请阅读并同意协议 ");
     }
     @Story("向下滑动")
-    @Test(priority = 3)
+    @Test(priority = 4)
     public static void slideDown() throws FileNotFoundException {
        KeyWord.KwJsScript(driver,"window.scrollTo(0, document.body.scrollHeight)");
         AllureConfig.allureConfig(driver,"拖动条向下滑动");
     }
     @Story("向上滑动")
-    @Test(priority = 4)
+    @Test(priority = 5)
     public static void slideUp() throws FileNotFoundException {
         KeyWord.KwJsScript(driver,"window.scrollTo( document.body.scrollHeight,0)");
         AllureConfig.allureConfig(driver,"拖动条向上滑动");
     }
     @Story("验证登录")
-    @Test(priority = 5,enabled = false)
+    @Test(priority = 6)
     public static void verifylogin() throws IOException, InterruptedException {
         /*勾选条款标签*/
         KeyWord.KwClick(driver,LoginPage.protocolElement);

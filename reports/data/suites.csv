@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Sep 30 07:13:21 CST 2024","Mon Sep 30 07:13:28 CST 2024","7308","Surefire suite","Surefire test","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","shopping","shopping",""
+"passed","Mon Sep 30 07:45:24 CST 2024","Mon Sep 30 07:45:31 CST 2024","6777","Default Suite","MyUiTest","com.xiaohe.testcase.integrationtest.AddToCartTest","com.xiaohe.testcase.integrationtest.AddToCartTest","shopping","shopping",""
