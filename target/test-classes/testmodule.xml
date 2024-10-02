@@ -1,12 +1,12 @@
 <suite name="UiAutoTest"  parallel="classs" thread-count="2">
-    <test name="test2" enabled="true">  <!--test必须有name属性-->
+    <test name="test1" enabled="true">
         <classes>
-            <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>
+            <class name="com.xiaohe.testcase.unittest.LoginTest"/>
         </classes>
     </test>
-<!--    <test name="test1" enabled="true">  &lt;!&ndash;test必须有name属性&ndash;&gt;-->
+<!--    <test name="test2" enabled="true">-->
 <!--        <classes>-->
-<!--            <class name="com.xiaohe.testcase.unittest.LoginTest"/>-->
+<!--            <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 </suite>

@@ -32,17 +32,11 @@ public class BasePage extends Driver {
         Gson gson = new Gson();
         Type listType = new TypeToken<List<CookieFromJson>>(){}.getType();
         List<CookieFromJson> cookiesFromJson = gson.fromJson(reader, listType);
-
-
-
         for (CookieFromJson cookieFromJson : cookiesFromJson) {
             Cookie cookie = cookieFromJson.toSeleniumCookie();
             driver.manage().addCookie(cookie);
         }
-
-
         driver.navigate().refresh();
-
     }
     public static void writeCookiesJson() throws IOException, InterruptedException {
 
