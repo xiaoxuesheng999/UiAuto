@@ -1,4 +1,4 @@
-package com.xiaohe.entity;
+package com.xiaohe.util;
 
 import lombok.Data;
 import org.openqa.selenium.Cookie;

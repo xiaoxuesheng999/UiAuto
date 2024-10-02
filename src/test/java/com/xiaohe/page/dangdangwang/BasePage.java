@@ -3,7 +3,7 @@ package com.xiaohe.page.dangdangwang;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.xiaohe.entity.CookieFromJson;
+import com.xiaohe.util.CookieFromJson;
 import com.xiaohe.util.ComparePicture;
 import com.xiaohe.util.Driver;
 import com.xiaohe.util.KeyWord;

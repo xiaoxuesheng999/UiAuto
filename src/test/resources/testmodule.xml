@@ -4,9 +4,9 @@
             <class name="com.xiaohe.testcase.unittest.LoginTest"/>
         </classes>
     </test>
-<!--    <test name="test2" enabled="true">-->
-<!--        <classes>-->
-<!--            <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="test2" enabled="true">
+        <classes>
+            <class name="com.xiaohe.testcase.integrationtest.AddToCartTest"></class>
+        </classes>
+    </test>
 </suite>

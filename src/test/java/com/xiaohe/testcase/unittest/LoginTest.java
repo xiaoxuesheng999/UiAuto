@@ -101,7 +101,7 @@ public class LoginTest extends Driver {
         AllureConfig.allureConfig(driver,"拖动条向上滑动");
     }
     @Story("验证登录")
-    @Test(priority = 6,enabled = false)
+    @Test(priority = 6)
     public static void verifylogin() throws IOException, InterruptedException {
 
         KeyWord.KwClick(driver,LoginPage.protocolElement);
